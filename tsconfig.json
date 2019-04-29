@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "lib": [
+            "es5",
+            "es6",
+            "esnext.asynciterable"
+        ],
+        "sourceRoot": "./src/",
+        "outDir": "./dist/",
+        "removeComments": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "noImplicitAny": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "exclude": [
+        "node_modules",
+        "scripts",
+        "test",
+        "e2e"
+    ]
+}
